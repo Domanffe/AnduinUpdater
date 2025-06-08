@@ -23,7 +23,7 @@ AnduinOS Updater is a GTK-based graphical tool for checking and installing updat
    sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 flatpak
    pip install --user pygobject
    ```
-2. Download and extract the latest release from [GitHub Releases](https://github.com/ВАШ_ЛОГИН/AnduinUpdater/releases).
+2. Download and extract the latest release from [GitHub Releases](https://github.com/Domanffe/AnduinUpdater/releases).
 3. In the extracted folder, run:
    ```sh
    sudo ./install.sh
