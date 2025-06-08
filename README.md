@@ -2,6 +2,8 @@
 
 AnduinOS Updater is a GTK-based graphical tool for checking and installing updates on AnduinOS (Ubuntu-based) systems. It supports APT, Flatpak, and system upgrades via do_anduinos_upgrade.
 
+![Main Window](screenshots/main_window.png)
+
 ## Features
 - Check for APT/DEB package updates
 - Check for Flatpak updates
@@ -53,6 +55,3 @@ GPL-3.0
 ## Screenshots
 
 Below are screenshots of AnduinOS Updater in action:
-
-![Main Window](screenshots/main_window.png)
-![Settings Dialog](screenshots/settings_dialog.png)
