@@ -5,3 +5,4 @@ __pycache__/
 *.swo
 *.bak
 *.log
+debian/
