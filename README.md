@@ -49,3 +49,10 @@ sudo rm /usr/local/share/doc/anduinupdater/README.md
 
 ## License
 GPL-3.0
+
+## Screenshots
+
+Below are screenshots of AnduinOS Updater in action:
+
+![Main Window](screenshots/main_window.png)
+![Settings Dialog](screenshots/settings_dialog.png)

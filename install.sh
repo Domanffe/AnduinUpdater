@@ -3,6 +3,19 @@
 set -e
 PREFIX=${PREFIX:-/usr/local}
 
+# Show license and ask for confirmation
+if [ -f LICENSE ]; then
+    echo "\n================ LICENSE (GPL-3.0) ================\n"
+    head -40 LICENSE
+    echo "..."
+    echo "\nBy installing, you accept the license above. Continue? [y/N]"
+    read ans
+    case $ans in
+        [Yy]*) ;;
+        *) echo "Installation cancelled."; exit 1;;
+    esac
+fi
+
 # Copy main files
 install -Dm755 anduinupdater "$PREFIX/bin/anduinupdater"
 install -Dm644 AnduinUpdater.desktop "$PREFIX/share/applications/AnduinUpdater.desktop"
