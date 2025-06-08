@@ -23,14 +23,29 @@ AnduinOS Updater is a GTK-based graphical tool for checking and installing updat
    sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 flatpak
    pip install --user pygobject
    ```
-2. (Optional) Copy `AnduinUpdater.desktop` to `~/.local/share/applications/` for menu integration.
+2. Download and extract the latest release from [GitHub Releases](https://github.com/ВАШ_ЛОГИН/AnduinUpdater/releases).
+3. In the extracted folder, run:
+   ```sh
+   sudo ./install.sh
+   ```
+   This will install the launcher, .desktop file, and all required files to your system.
 
 ## Usage
-Run the application:
+- Launch "AnduinOS Updater" from your application menu
+- Or run in terminal:
+  ```sh
+  anduinupdater
+  ```
+
+## Uninstallation
+To remove AnduinOS Updater, delete these files:
 ```sh
-python3 main.py
+sudo rm /usr/local/bin/anduinupdater
+sudo rm /usr/local/share/applications/AnduinUpdater.desktop
+sudo rm -r /usr/local/share/anduinupdater
+sudo rm /usr/local/share/doc/anduinupdater/LICENSE
+sudo rm /usr/local/share/doc/anduinupdater/README.md
 ```
-Or launch from your desktop menu if you installed the .desktop file.
 
 ## License
 GPL-3.0
