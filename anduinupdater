@@ -1,0 +1,4 @@
+#!/bin/sh
+# AnduinOS Updater launcher script
+cd "$(dirname "$0")"
+exec python3 main.py "$@"

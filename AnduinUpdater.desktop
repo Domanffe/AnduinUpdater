@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AnduinOS Updater
+Comment=Update AnduinOS and packages
+Exec=anduinupdater
+Icon=system-software-update
+Terminal=false
+Categories=System;Settings;
