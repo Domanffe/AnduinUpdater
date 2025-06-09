@@ -1,3 +1,8 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GTK3](https://img.shields.io/badge/GTK-3.x-brightgreen.svg)](https://www.gtk.org/)
+[![Python 3](https://img.shields.io/badge/Python-3.x-orange.svg)](https://www.python.org/)
+
+
 # AnduinOS Updater
 
 AnduinOS Updater is a GTK-based graphical tool for upgrading AnduinOS (Ubuntu-based) systems via do_anduinos_upgrade.
