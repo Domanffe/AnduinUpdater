@@ -2,19 +2,15 @@
 <component type="desktop-application">
   <id>anduinupdater.desktop</id>
   <name>AnduinOS Updater</name>
-  <summary>Graphical tool for updating AnduinOS and packages</summary>
+  <summary>Graphical tool for upgrading AnduinOS</summary>
   <description>
-    <p>AnduinOS Updater is a GTK-based graphical tool for checking and installing updates on AnduinOS (Ubuntu-based) systems. It supports APT, Flatpak, and system upgrades via do_anduinos_upgrade.</p>
+    <p>AnduinOS Updater is a GTK-based graphical tool for upgrading AnduinOS (Ubuntu-based) systems via do_anduinos_upgrade.</p>
   </description>
   <launchable type="desktop-id">AnduinUpdater.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>file:///usr/share/doc/anduinupdater/screenshots/main_window.png</image>
       <caption>Main Window</caption>
-    </screenshot>
-    <screenshot>
-      <image>file:///usr/share/doc/anduinupdater/screenshots/settings_dialog.png</image>
-      <caption>Settings Dialog</caption>
     </screenshot>
   </screenshots>
   <project_license>GPL-3.0-or-later</project_license>

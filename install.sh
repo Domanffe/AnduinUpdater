@@ -29,7 +29,6 @@ cp -r gui "$PREFIX/share/anduinupdater/"
 cp main.py "$PREFIX/share/anduinupdater/"
 cp VERSION "$PREFIX/share/anduinupdater/"
 
-# Fix Exec path in .desktop file
 sed -i "s|Exec=anduinupdater|Exec=$PREFIX/bin/anduinupdater|g" "$PREFIX/share/applications/AnduinUpdater.desktop"
 
 echo "AnduinOS Updater installed! You can launch it from the menu or by running 'anduinupdater'."

@@ -1,8 +1,9 @@
 [Desktop Entry]
 Type=Application
 Name=AnduinOS Updater
-Comment=Update AnduinOS and packages
+Comment=Upgrade AnduinOS to the latest version
 Exec=anduinupdater
-Icon=system-software-update
+Icon=anduinupdater
 Terminal=false
 Categories=System;Settings;
+StartupWMClass=AnduinOS Updater
